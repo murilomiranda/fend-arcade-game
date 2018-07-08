@@ -21,7 +21,7 @@ class Enemy {
 
     if(this.x > 510){
       this.x = -50;
-      this.speed = 100 + Math.floor(Math.random() * modes[2]);
+      this.speed = 100 + Math.floor(Math.random() * modes[2]) + Math.floor(Math.random() * level * 2);
     }
 
     // Check for collision between player and enemy
@@ -87,6 +87,7 @@ class Player {
         player.x = 202;
         player.y = 405;
       }, 100);
+      level += 1;
     }
   }
 };
@@ -98,6 +99,8 @@ const enemyLocation = [60, 145, 230];
 
 // difficulty modes
 const modes = [50, 100, 200, 300, 350];
+// level of the game
+let level = 1;
 
 enemyLocation.forEach(function (locY){
   enemy = new Enemy(0, locY, 100 + Math.floor(Math.random() * modes[2]));

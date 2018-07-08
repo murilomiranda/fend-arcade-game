@@ -1,6 +1,25 @@
-frontend-nanodegree-arcade-game
-===============================
+# Classic Arcade Game Project
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+# Table of Contents
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+* [How to Run](#run)
+* [How to Play](#play)
+* [Future implementation](future)
+
+## How to Run
+To run this application, download the GitHub ZIP file or clone the repository, then open it. Inside this folder we will find a HTML file called "index". Please, open it with a browser (e.g. Internet Explorer, Google Chrome, Microsoft Edge, Firefox).
+
+You can also play the game by clicking this [link]()
+
+## How to Play
+The main goal is to reach the water (blue zone). When you reach the water, the game will start over. The enemy bugs are running across three rows (stone zone) with random speed. If a bug catches the player, (s)he will die and the game will start over. Please use the arrow keys in order to move your player left, right, forward or backward.
+
+
+## Future implementation
+- Change players (Boy, Cat girl, Horn girl, Pink girl, Princess)
+- Change difficulty modes (Novice, Easy, Normal, Hard, Hardcore)
+- Add Modal Boxes (initial, paused and final)
+- Add Timer
+- Add Score
+- Final modal box with an informative able (mode, level, time and score)
+- Collect gems (Blue, Green and Orange), heart, star and key
