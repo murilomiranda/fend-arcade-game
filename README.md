@@ -23,3 +23,7 @@ The main goal is to reach the water (blue zone). When you reach the water, the g
 - Add Score
 - Final modal box with an informative able (mode, level, time and score)
 - Collect gems (Blue, Green and Orange), heart, star and key
+
+## Sources:
+[HTML Game](https://www.w3schools.com/graphics/game_intro.asp)
+[Basic Collision Detection in 2D – Part 1](http://devmag.org.za/2009/04/13/basic-collision-detection-in-2d-part-1/)
